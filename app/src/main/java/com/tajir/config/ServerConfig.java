@@ -10,7 +10,7 @@ public class ServerConfig {
     private static final String BASE_URL_API_ARTICEL = "https://trimueri.com/";
 
     //url test local ip
-    private static final String BASE_URL_API_LOCAL = "http://192.168.43.34:8001/api/v1/";
+    private static final String BASE_URL_API_LOCAL = "http://192.168.43.34:7002/api/v1/";
 
 
     /**
