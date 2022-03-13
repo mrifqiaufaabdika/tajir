@@ -59,7 +59,7 @@ public class AuthActivity extends AppCompatActivity {
                 if (response.isSuccessful()){
                     if (!response.body().getToken().equals(null)) {
                         sessionManager.createLoginSession(response.body().getValue(), response.body().getToken());
-                        Intent intent = new Intent(context, MainActivity.class);
+                        Intent intent = new Intent(context, NavMainActivity.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                         finish();
