@@ -13,4 +13,22 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Tajir.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Tajir.NavMenu">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="listPreferredItemHeightSmall">48dp</item>
+
+
+    </style>
+
+    <style name="Theme.Tajir.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Tajir.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
