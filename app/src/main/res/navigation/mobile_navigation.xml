@@ -22,4 +22,10 @@
         android:name="com.tajir.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_pelanggan"
+        android:name="com.tajir.ui.slideshow.SlideshowFragment"
+        android:label="Pelanggan"
+        tools:layout="@layout/fragment_pelanggan" />
 </navigation>
