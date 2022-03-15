@@ -17,7 +17,7 @@
             android:icon="@drawable/ic_voucher"
             android:title="Voucher" />
         <item
-            android:id="@+id/nav_slideshow1"
+            android:id="@+id/nav_pelanggan"
             android:icon="@drawable/ic_member"
             android:title="Pelanggan" />
         <item

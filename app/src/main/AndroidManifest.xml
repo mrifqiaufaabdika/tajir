@@ -20,14 +20,14 @@
             android:theme="@style/Theme.Tajir.NoActionBar" />
         <activity
             android:name=".activites.MainActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".activites.AuthActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".activites.SplashScreen"
             android:exported="true"
-            android:screenOrientation="landscape">
+            android:screenOrientation="fullSensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
