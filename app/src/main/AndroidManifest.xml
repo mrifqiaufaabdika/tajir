@@ -7,27 +7,32 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_group_15"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_group_15"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tajir"
         android:usesCleartextTraffic="true">
         <activity
             android:name=".activites.NavMainActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_nav_main"
-            android:theme="@style/Theme.Tajir.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".activites.MainActivity"
-            android:screenOrientation="fullSensor" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".activites.AuthActivity"
-            android:screenOrientation="fullSensor" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activites.SplashScreen"
             android:exported="true"
-            android:screenOrientation="fullSensor">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
