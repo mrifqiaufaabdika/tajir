@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">tajir</string>
+    <string name="app_name">Katsir</string>
     <string name="update_downloaded">App Download on Update</string>
     <string name="restart">Reload</string>
     <string name="title_activity_nav_main">NavMainActivity</string>
