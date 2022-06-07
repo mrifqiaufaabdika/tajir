@@ -5,13 +5,13 @@ public class ServerConfig {
     /**
      * Url Server
      */
-    private static final String BASE_URL_API = "https://api.tmp.trimueri.com/public/api/v1/";
+    private static final String BASE_URL_API = "https://api.tajir.trimueri.com/public/api/v1/";
 
     private static final String BASE_URL_API_ARTICEL = "https://trimueri.com/";
 
     //url test local ip
    // private static final String BASE_URL_API_LOCAL = "http://192.168.43.34:7002/api/v1/";
-    private static final String BASE_URL_API_LOCAL = "http://192.168.23.56:7002/api/v1/";
+    private static final String BASE_URL_API_LOCAL = "http://192.168.42.56:7000/api/v1/";
 
 
     /**
@@ -19,7 +19,7 @@ public class ServerConfig {
      * @return
      */
     public static ApiService getAPIService(){
-        return ApiConfig.getClient(BASE_URL_API_LOCAL).create(ApiService.class);
+        return ApiConfig.getClient(BASE_URL_API).create(ApiService.class);
     }
 
     /**

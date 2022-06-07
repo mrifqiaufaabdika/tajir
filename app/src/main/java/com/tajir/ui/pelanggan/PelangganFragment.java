@@ -21,7 +21,7 @@ public class PelangganFragment extends Fragment {
         PelangganViewModel galleryViewModel =
                 new ViewModelProvider(this).get(PelangganViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentPelangganBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;
