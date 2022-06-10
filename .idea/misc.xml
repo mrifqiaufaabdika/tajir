@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2677083333333333" />
+        <entry key="app/src/main/res/drawable-mdpi/bgx_btn_corner_green.xml" value="0.1085" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.1765" />
-        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_boarding.xml" value="0.15716857910156254" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_nav_main.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
@@ -14,6 +16,8 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/fragment_pelanggan.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/nav_header_nav_main.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/layout/single_list_intro_katsir.xml" value="0.17360432942708334" />
+        <entry key="app/src/main/res/layout/welcome_slide1.xml" value="0.1" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
         <entry key="app/src/main/res/menu/nav_main.xml" value="0.24114583333333334" />
       </map>
