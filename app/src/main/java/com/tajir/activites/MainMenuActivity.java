@@ -18,6 +18,7 @@ import androidx.fragment.app.FragmentManager;
 import com.tajir.R;
 import com.tajir.databinding.ActivityMainBinding;
 import com.tajir.fragments.AddFragment;
+import com.tajir.fragments.HomeFragment;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -29,7 +30,7 @@ public class MainMenuActivity extends AppCompatActivity {
     /*
     declaretion for fragments
      */
-    final AddFragment homeFragment = new AddFragment();
+    final HomeFragment homeFragment = new HomeFragment();
     final AddFragment listFragment = new AddFragment();
     final AddFragment addFragment = new AddFragment();
     final AddFragment campaignFragment = new AddFragment();

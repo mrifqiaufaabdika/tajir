@@ -19,7 +19,7 @@
 <color name="grey">#a7a7a7</color>
 <color name="greyD3">#d3d7d7</color>
 <color name="red">#eb4646</color>
-<color name="orange">#F39C12</color>
+<color name="orange">#199675</color>
 <color name="blue">#0C84F3</color>
 <color name="blueButton">#0a6ac2</color>
 <color name="progressBar">#F7B5B5</color>
@@ -36,6 +36,10 @@
 <color name="shadow">#75242323</color>
 <color name="black_transparent">#D7000000</color>
 
+
+
+
+    <color name="black_1">#199675</color>
 
 
 
