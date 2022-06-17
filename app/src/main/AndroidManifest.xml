@@ -20,10 +20,13 @@
             android:label="@string/title_activity_nav_main"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".activites.MainActivity"
+            android:name=".activites.MainMenuActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:screenOrientation="portrait"
             />
+        <activity android:name=".activites.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".activites.AuthActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"

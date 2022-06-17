@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.tajir.BuildConfig;
 import com.tajir.databinding.ActivitySplashBinding;
 import com.tajir.utils.SessionManager;
+import com.tajir.activites.MainMenuActivity;
 
 
 public class SplashScreen extends AppCompatActivity {
@@ -39,7 +40,7 @@ public class SplashScreen extends AppCompatActivity {
         if (!sessionManager.isLoggedIn()){
             intent = new Intent(getApplicationContext(), AuthActivity.class);
         }else {
-            intent = new Intent(getApplicationContext(), MainActivity.class);
+            intent = new Intent(getApplicationContext(), MainMenuActivity.class);
         }
 
 

@@ -19,12 +19,13 @@
 <string name="str_msg_login_options">Sebelum menikmati layanan Pemol, silahkan masuk atau daftarkan akun kamu dahulu ya!</string>
 <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
 <string name="title_home">Beranda</string>
-<string name="title_activitas">Aktivitas</string>
-<string name="title_pesan">Pesan</string>
-<string name="title_akun">Akunku</string>
-<string name="pemol_pay">PemolPay</string>
+<string name="title_bayar">Bayar</string>
+<string name="title_riwayat">Riwayat</string>
+<string name="title_kasir">Kasir</string>
+<string name="tittle_setting">Settings</string>
 <string name="start">Mengerti</string>
 <string name="next">Lanjutkan</string>
+
 
 
 //image

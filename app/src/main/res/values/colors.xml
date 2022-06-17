@@ -37,4 +37,13 @@
 <color name="black_transparent">#D7000000</color>
 
 
+
+
+    <color name="black_2">#000000</color>
+    <color name="start_color">#FFEBB9</color>
+    <color name="center_color">#FFFDF7</color>
+    <color name="overlay">#32384869</color>
+
+
+
 </resources>

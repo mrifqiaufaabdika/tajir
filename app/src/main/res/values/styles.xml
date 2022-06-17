@@ -1,0 +1,167 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- style text judul besar -->
+    <style name="judulBesar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">@dimen/judulBesar</item>
+    </style>
+
+    <!-- style text judul sedang -->
+    <style name="judulSedang" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+        <item name="android:textSize">@dimen/judulSedang</item>
+    </style>
+
+    <!-- normal text -->
+    <style name="normalText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+        <item name="android:textSize">@dimen/textNormal</item>
+    </style>
+
+    <!-- normal text bold-->
+    <style name="normalText.bold" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">@dimen/textNormal</item>
+    </style>
+
+    <!-- text kecil -->
+    <style name="normalKecil" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/Tex</item>
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+        <item name="android:textSize">@dimen/textKecil</item>
+    </style>
+
+    <!-- text kecil bold -->
+    <style name="normalKecil.bold" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">@dimen/textKecil</item>
+    </style>
+
+    <!-- text kecil bold -->
+    <style name="normalKecil12.bold" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">@dimen/textKecil12</item>
+    </style>
+
+    <!-- text kecil bold -->
+    <style name="normalKecil12" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+        <item name="android:textSize">@dimen/textKecil12</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Pemol.Button.Style1" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+    </style>
+
+    <!--rating bar-->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="AppThemes" parent="Theme.MaterialComponents.Light">
+        <!-- Default value for chipStyle -->
+        <item name="chipStyle">@style/MaterialChips</item>
+        <item name="fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">10.5sp</item>
+
+
+    </style>
+
+    <style name="MaterialChips" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <!-- ... -->
+        <item name="chipBackgroundColor">@color/selection_chips</item>
+
+        <item name="android:textColor">@color/selection_text_chips</item>
+
+        <item name="chipCornerRadius">5dp</item>
+        <!--<item name="rippleColor">@color/fui_transparent</item>-->
+        <item name="chipEndPadding">10dp</item>
+        <item name="chipStartPadding">10dp</item>
+    </style>
+
+    <!--CUSTOME TOOLBAR-->
+    <style name="ToolbarTextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+
+    <style name="ToolbarTextAppearance.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/satoshi_bold</item>
+        <item name="android:textSize">@dimen/judulSedang</item>
+
+    </style>
+
+    <style name="ToolbarTextAppearance.Subtitle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/satoshi_regular</item>
+        <item name="android:textSize">@dimen/textNormal</item>
+    </style>
+
+    <style name="transparent_toolbar_pemol">
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="navigationIcon">@drawable/ic_back_white</item>
+        <item name="android:background">#000</item>
+
+    </style>
+
+    <style name="AppTheme.Transparent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--        <item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="ChipTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabTextColor">@color/grey</item>
+        <item name="tabRippleColor">@android:color/transparent</item>
+    </style>
+
+
+
+</resources>
