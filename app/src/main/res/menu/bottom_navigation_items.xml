@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_home"
-        android:icon="@drawable/home"
+        android:icon="@drawable/ic_home"
         android:title="@string/title_home"
         android:enabled="true"/>
 
     <item
         android:id="@+id/action_list"
-        android:icon="@drawable/ic_bayar"
+        android:icon="@drawable/ic_tags"
         android:title="@string/title_bayar"
         android:enabled="true"/>
 
@@ -20,13 +20,13 @@
 
     <item
         android:id="@+id/action_campaign"
-        android:icon="@drawable/list"
+        android:icon="@drawable/ic_notebook"
         android:title="@string/title_riwayat"
         android:enabled="true"/>
 2
     <item
         android:id="@+id/action_menu"
-        android:icon="@drawable/ic_bayar"
+        android:icon="@drawable/ic_settings"
         android:title="@string/tittle_setting"
         android:enabled="true"/>
 </menu>
