@@ -1,57 +1,56 @@
 <resources>
-        <string name="app_name">Katsir</string>
-        <string name="update_downloaded">App Download on Update</string>
-        <string name="restart">Reload</string>
-        <string name="title_activity_nav_main">NavMainActivity</string>
-        <string name="navigation_drawer_open">Open navigation drawer</string>
-        <string name="navigation_drawer_close">Close navigation drawer</string>
-        <string name="nav_header_title">Android Studio</string>
-        <string name="nav_header_subtitle">android.studio@android.com</string>
-        <string name="nav_header_desc">Navigation header</string>
-        <string name="action_settings">Settings</string>
+    <string name="app_name">Katsir</string>
+    <string name="update_downloaded">App Download on Update</string>
+    <string name="restart">Reload</string>
+    <string name="title_activity_nav_main">NavMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-        <string name="menu_home">Home</string>
-        <string name="menu_gallery">Gallery</string>
-        <string name="menu_slideshow">Slideshow</string>
-
-
-<string name="str_msg_verify_otp">Periksa dan masukkan kode OTP yang telah dikirimkan ke nomor <b>%s</b></string>
-<string name="str_msg_login_options">Sebelum menikmati layanan Pemol, silahkan masuk atau daftarkan akun kamu dahulu ya!</string>
-<string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-<string name="title_home">Beranda</string>
-<string name="title_bayar">Bayar</string>
-<string name="title_riwayat">Riwayat</string>
-<string name="title_kasir">Kasir</string>
-<string name="tittle_setting">Settings</string>
-<string name="start">Mengerti</string>
-<string name="next">Lanjutkan</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 
 
+    <string name="str_msg_verify_otp">Periksa dan masukkan kode OTP yang telah dikirimkan ke nomor <b>%s</b></string>
+    <string name="str_msg_login_options">Sebelum menikmati layanan Pemol, silahkan masuk atau daftarkan akun kamu dahulu ya!</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_bayar">Bayar</string>
+    <string name="title_riwayat">Riwayat</string>
+    <string name="title_kasir">Kasir</string>
+    <string name="tittle_setting">Settings</string>
+    <string name="start">Mengerti</string>
+    <string name="next">Lanjutkan</string>
 
-//image
-<string name="pathSampah">https://api.pem-ol.com/public/data-sampah/</string>
-<string name="path_thumb_photo_sampah">https://api.pem-ol.com/public/jual-sampah/thumbnail/</string>
+
+    //image
+    <string name="pathSampah">https://api.pem-ol.com/public/data-sampah/</string>
+    <string name="path_thumb_photo_sampah">https://api.pem-ol.com/public/jual-sampah/thumbnail/</string>
 
 
-//onboard title
-<string name="slidetitle1">Mudah Jual Sampah</string>
-<string name="slidetitle2">Tabung Pakai PemolPay</string>
-<string name="slidetitle3">Jaga Lingkungan Bersama</string>
+    //onboard title
+    <string name="slidetitle1">Mudah Jual Sampah</string>
+    <string name="slidetitle2">Tabung Pakai PemolPay</string>
+    <string name="slidetitle3">Jaga Lingkungan Bersama</string>
 
-//onboard description
-<string name="slide1">Sampah daur ulang kini makin mudah dijual. Cukup transaksi melalui aplikasi dan dapatkan uangnya hingga bonus poin</string>
-<string name="slide2">Tabung hasil jual sampah dengan PemolPay pasti untung. Bisa beli pulsa, bayar tagihan, topup e-money dan produk digital lainnya</string>
-<string name="slide3">Mari berkontribusi bersama menjaga lingkungan melalui fitur dan layanan yang tersedia di aplikasi. Yuk mulai dari Pemol</string>
-<string name="pathBanner">https://api.pem-ol.com/public/banner/</string>
-<string name="pathMedia">https://api.pem-ol.com/public/gambar-media/</string>
-<string name="str_term_condition">Dengan masuk ataupun mendaftar, berarti kamu telah setuju dengan <a style='color:#eb4646' href='#'>Syarat dan Ketentuan</a> serta <a style='color:#eb4646' href='#'>Kebijakan Privasi</a></string>
-<string name="pesan_goto_setting_camera"><![CDATA[Anda telah menolak izin kamera. Izinkan kamera atau semua izin di [Pengaturan] > [Izin]]]></string>
+    //onboard description
+    <string name="slide1">Sampah daur ulang kini makin mudah dijual. Cukup transaksi melalui aplikasi dan dapatkan uangnya hingga bonus poin</string>
+    <string name="slide2">Tabung hasil jual sampah dengan PemolPay pasti untung. Bisa beli pulsa, bayar tagihan, topup e-money dan produk digital lainnya</string>
+    <string name="slide3">Mari berkontribusi bersama menjaga lingkungan melalui fitur dan layanan yang tersedia di aplikasi. Yuk mulai dari Pemol</string>
+    <string name="pathBanner">https://api.pem-ol.com/public/banner/</string>
+    <string name="pathMedia">https://api.pem-ol.com/public/gambar-media/</string>
+    <string name="str_term_condition">Dengan masuk ataupun mendaftar, berarti kamu telah setuju dengan <a style='color:#eb4646' href='#'>Syarat dan Ketentuan</a> serta <a style='color:#eb4646' href='#'>Kebijakan Privasi</a></string>
+    <string name="pesan_goto_setting_camera"><![CDATA[Anda telah menolak izin kamera. Izinkan kamera atau semua izin di [Pengaturan] > [Izin]]]></string>
 
-<string name="pesan_goto_setting_file"><![CDATA[Anda telah menolak izin membaca file. Izinkan membaca file atau semua izin di [Pengaturan] > [Izin]]]></string>
-<string name="pesan_aktifkan_gps">Aplikasi ini membutuhkan GPS untuk bekerja dengan baik, apakah Anda ingin mengaktifkannya?</string>
+    <string name="pesan_goto_setting_file"><![CDATA[Anda telah menolak izin membaca file. Izinkan membaca file atau semua izin di [Pengaturan] > [Izin]]]></string>
+    <string name="pesan_aktifkan_gps">Aplikasi ini membutuhkan GPS untuk bekerja dengan baik, apakah Anda ingin mengaktifkannya?</string>
 
-<string name="drp_text_1">Pilah dahulu sampah sesuai jenisnya dari rumah dan kunjungi Drop Point terdekat</string>
+    <string name="drp_text_1">Pilah dahulu sampah sesuai jenisnya dari rumah dan kunjungi Drop Point terdekat</string>
 
-<string name="drp_text_5">Makin keren dengan fitur Drop Box, jual sampah serba otomatis di Drop Point terdekat. </string>
+    <string name="drp_text_5">Makin keren dengan fitur Drop Box, jual sampah serba otomatis di Drop Point terdekat. </string>
 
 </resources>

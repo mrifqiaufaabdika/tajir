@@ -100,7 +100,7 @@ public class MainMenuActivity extends AppCompatActivity {
         binding.btnPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(view.getContext(), AddFragment.class));
+                startActivity(new Intent(view.getContext(), TransaksiActivity.class));
 
             }
         });
