@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:contentPadding="@dimen/margin_15dp"
+    android:elevation="5dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="@dimen/marginSedang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_scan_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_wallet"
+            android:text="Total Saldo\n 22 Mei 2022"
+            android:textColor="@color/gray"
+            android:gravity="center_vertical"
+            android:drawablePadding="15dp"
+            style="@style/normalKecil"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/satoshi_bold"
+            android:textColor="@color/font_black"
+            android:layout_gravity="center_vertical"
+            android:text="Rp.10.000,-"/>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

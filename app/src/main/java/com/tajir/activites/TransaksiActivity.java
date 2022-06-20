@@ -47,9 +47,6 @@ public class TransaksiActivity extends AppCompatActivity {
         createmenu();
 
         for (int i = 0; i < 5; i++) {
-
-            //m_tab_layout.addTab(m_tab_layout.newTab().setText(buildCategoriList().size()));
-            //m_tab_layout.addTab(m_tab_layout.newTab().setText(jenisBahanList.get(i).getNama()));
             m_tab_layout.addTab(m_tab_layout.newTab().setText("Kategori"));
         }
 
@@ -66,39 +63,18 @@ public class TransaksiActivity extends AppCompatActivity {
 
     }
 
-    private List<Category> buildCategoriList() {
-        List<Category> itemList = new ArrayList<>();
-        for (int i=0; i<10; i++) {
-            Category item = new Category("Kategori("+i+")", buildItemList());
-            itemList.add(item);
-        }
-        return itemList;
-    }
-
-    private List<Item> buildItemList() {
-        List<Item> subItemList = new ArrayList<>();
-        for (int i=0; i<3; i++) {
-            Boolean enable =  true;
-            if (i == 0){
-                enable = false;
-            }
-            Item item = new Item("Apple Phone "+i,  getResources().getString(R.string.app_name)+" "+i,enable);
-            subItemList.add(item);
-        }
-        return subItemList;
-    }
 
     void createmenu() {
         mainMenus.clear();
        // int jml = countcart(context);
-        mainMenus.add(0, new MainMenu("Jual Sampah", R.drawable.ic_settings, 0));
-        mainMenus.add(1, new MainMenu("Drop Box", R.drawable.ic_settings, 0));
-        mainMenus.add(2, new MainMenu("Pulsa", R.drawable.ic_settings, 0));
-        mainMenus.add(3, new MainMenu("Paket Data", R.drawable.ic_settings, 0));
-        mainMenus.add(4, new MainMenu("BPJS", R.drawable.ic_settings, 0));
-        mainMenus.add(5, new MainMenu("Listrik", R.drawable.ic_settings, 0));
-        mainMenus.add(6, new MainMenu("Token Listrik", R.drawable.ic_settings, 0));
-        mainMenus.add(7, new MainMenu("Lainnya", R.drawable.ic_settings, 0));
+        mainMenus.add(0, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(1, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(2, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(3, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(4, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(5, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(6, new MainMenu("Americano", R.drawable.ic_coffee, 0));
+        mainMenus.add(7, new MainMenu("Americano", R.drawable.ic_coffee, 0));
 
         mainMenuAdapter.notifyDataSetChanged();
 

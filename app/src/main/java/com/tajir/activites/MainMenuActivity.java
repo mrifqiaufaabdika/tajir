@@ -62,7 +62,7 @@ public class MainMenuActivity extends AppCompatActivity {
                     }
                     fragmentManager.beginTransaction().hide(activeFragment).show(homeFragment).commit();
                     activeFragment = homeFragment;
-                    updateStatusBarColor(getResources().getColor(R.color.start_color));
+                    updateStatusBarColor(getResources().getColor(R.color.colorPrimary));
                     return true;
 
                 case R.id.action_list:
@@ -110,7 +110,7 @@ public class MainMenuActivity extends AppCompatActivity {
          */
         fragmentManager.beginTransaction().add(R.id.container, homeFragment, "HomeFragment").commit();
         binding.navigation.getMenu().findItem(R.id.action_home).setChecked(true);
-        updateStatusBarColor(getResources().getColor(R.color.start_color));
+        updateStatusBarColor(getResources().getColor(R.color.colorPrimary));
 
 
     }
