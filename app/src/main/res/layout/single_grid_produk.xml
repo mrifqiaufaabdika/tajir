@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_gridview_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <com.andexert.library.RippleView-->
+    <!--        android:id="@+id/more"-->
+    <!--        rv_centered="true"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        app:rv_color="#fff"-->
+    <!--        app:rv_rippleDuration="200">-->
+
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_label"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txt_label"
+            style="@style/normalKecil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imv_label"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Grid View Item" />
+
+        <TextView
+            android:id="@+id/imv_badge_info"
+            style="@style/normalKecil.bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgx_badge_info_green"
+            android:gravity="center"
+            android:layout_marginLeft="-12dp"
+            android:visibility="gone"
+            android:layout_toEndOf="@id/imv_label"
+            android:text="2"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+
+
+    <!--    </com.andexert.library.RippleView>-->
+</RelativeLayout>
+

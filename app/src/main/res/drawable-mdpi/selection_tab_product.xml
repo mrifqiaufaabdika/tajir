@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:drawable="@drawable/bgx_tab_artikel_selected"
+                android:state_selected="true" />
+            <item
+                android:drawable="@drawable/bgx_tab_rubbish_unselected"
+                android:state_focused="false"
+                android:state_pressed="false"
+                android:state_selected="false" />
+        </selector>
+    </item>
+</layer-list>
